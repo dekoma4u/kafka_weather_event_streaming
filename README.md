@@ -3,7 +3,7 @@ Here's the complete documentation in Markdown format:
 
 # Kafka Weather Event Streaming
 
-![Analytics vs Transactions - API and Data Streaming with Apache Kafka](https://www.kai-waehner.de/blog/2022/03/09/analytics-vs-transactions-api-data-streaming-with-apache-kafka/)
+![Analytics vs Transactions - API and Data Streaming with Apache Kafka](https://www.kai-waehner.de/wp-content/uploads/2022/03/Apache-Kafka-Transactions-API-vs-Big-Data-Lake-and-Batch-Analytics.png)
 
 ## Objective
 

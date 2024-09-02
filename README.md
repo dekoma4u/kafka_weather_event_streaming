@@ -3,6 +3,8 @@ Here's the complete documentation in Markdown format:
 
 # Kafka Weather Event Streaming
 
+![Analytics vs Transactions - API and Data Streaming with Apache Kafka](https://www.kai-waehner.de/blog/2022/03/09/analytics-vs-transactions-api-data-streaming-with-apache-kafka/)
+
 ## Objective
 
 The objective of this project is to build an automated, real-time streaming ETL (Extract, Transform, Load) data pipeline using Python, Kafka, and PostgreSQL. This project demonstrates how to handle real-time data ingestion, processing, and storage with a focus on data quality and pipeline automation.

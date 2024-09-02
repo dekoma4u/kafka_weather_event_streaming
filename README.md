@@ -1,6 +1,6 @@
 Here's the complete documentation in Markdown format:
 
-```markdown
+
 # Kafka Weather Event Streaming
 
 ## Objective

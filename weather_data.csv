@@ -59,3 +59,63 @@ Timestamp,Place,Region,Country,Continent,Current Temp (°C),Feels Like Temp (°C
 2024-09-02 20:39:00,Pforzheim,Baden-Wurttemberg,Germany,Europe/Berlin,19.5,19.6,Sunny
 2024-09-02 19:39:00,Lagos,Lagos,Nigeria,Africa/Lagos,27.4,30.7,Partly cloudy
 2024-09-02 19:39:00,Ichida,Anambra,Nigeria,Africa/Lagos,24.5,26.9,Patchy rain nearby
+2024-09-02 20:44:00,Berlin,Berlin,Germany,Europe/Berlin,22.2,24.5,Clear
+2024-09-02 20:44:00,Pforzheim,Baden-Wurttemberg,Germany,Europe/Berlin,19.5,19.6,Sunny
+2024-09-02 19:44:00,Lagos,Lagos,Nigeria,Africa/Lagos,26.2,28.7,Clear
+2024-09-02 19:44:00,Ichida,Anambra,Nigeria,Africa/Lagos,24.5,26.9,Patchy rain nearby
+2024-09-02 20:49:00,Berlin,Berlin,Germany,Europe/Berlin,22.3,24.5,Clear
+2024-09-02 20:49:00,Pforzheim,Baden-Wurttemberg,Germany,Europe/Berlin,19.5,19.6,Sunny
+2024-09-02 19:49:00,Lagos,Lagos,Nigeria,Africa/Lagos,27.2,30.4,Partly cloudy
+2024-09-02 19:49:00,Ichida,Anambra,Nigeria,Africa/Lagos,24.5,26.9,Patchy rain nearby
+2024-09-02 20:54:00,Berlin,Berlin,Germany,Europe/Berlin,22.3,24.5,Clear
+2024-09-02 20:54:00,Pforzheim,Baden-Wurttemberg,Germany,Europe/Berlin,19.5,19.6,Sunny
+2024-09-02 19:54:00,Lagos,Lagos,Nigeria,Africa/Lagos,27.2,30.4,Partly cloudy
+2024-09-02 19:54:00,Ichida,Anambra,Nigeria,Africa/Lagos,24.5,26.9,Patchy rain nearby
+2024-09-02 20:59:00,Berlin,Berlin,Germany,Europe/Berlin,22.3,24.5,Clear
+2024-09-02 20:59:00,Pforzheim,Baden-Wurttemberg,Germany,Europe/Berlin,19.5,19.6,Sunny
+2024-09-02 19:59:00,Lagos,Lagos,Nigeria,Africa/Lagos,27.2,30.4,Partly cloudy
+2024-09-02 19:59:00,Ichida,Anambra,Nigeria,Africa/Lagos,24.5,26.9,Patchy rain nearby
+2024-09-02 21:04:00,Berlin,Berlin,Germany,Europe/Berlin,22.4,24.6,Clear
+2024-09-02 21:04:00,Pforzheim,Baden-Wurttemberg,Germany,Europe/Berlin,18.9,18.9,Patchy rain nearby
+2024-09-02 20:04:00,Lagos,Lagos,Nigeria,Africa/Lagos,27.4,31.0,Partly cloudy
+2024-09-02 20:04:00,Ichida,Anambra,Nigeria,Africa/Lagos,24.2,26.6,Patchy light drizzle
+2024-09-02 21:09:00,Berlin,Berlin,Germany,Europe/Berlin,22.4,24.6,Clear
+2024-09-02 21:09:00,Pforzheim,Baden-Wurttemberg,Germany,Europe/Berlin,18.9,18.9,Patchy rain nearby
+2024-09-02 20:09:00,Lagos,Lagos,Nigeria,Africa/Lagos,27.4,31.0,Partly cloudy
+2024-09-02 20:09:00,Ichida,Anambra,Nigeria,Africa/Lagos,24.2,26.6,Patchy light drizzle
+2024-09-02 21:14:00,Berlin,Berlin,Germany,Europe/Berlin,22.4,24.6,Clear
+2024-09-02 21:14:00,Pforzheim,Baden-Wurttemberg,Germany,Europe/Berlin,18.9,18.9,Patchy rain nearby
+2024-09-02 20:14:00,Lagos,Lagos,Nigeria,Africa/Lagos,27.4,31.0,Partly cloudy
+2024-09-02 20:14:00,Ichida,Anambra,Nigeria,Africa/Lagos,24.2,26.6,Patchy light drizzle
+2024-09-02 21:19:00,Berlin,Berlin,Germany,Europe/Berlin,21.3,21.3,Clear
+2024-09-02 21:19:00,Pforzheim,Baden-Wurttemberg,Germany,Europe/Berlin,18.9,18.9,Patchy rain nearby
+2024-09-02 20:19:00,Lagos,Lagos,Nigeria,Africa/Lagos,27.4,31.0,Partly cloudy
+2024-09-02 20:19:00,Ichida,Anambra,Nigeria,Africa/Lagos,24.2,26.6,Patchy light drizzle
+2024-09-02 21:24:00,Berlin,Berlin,Germany,Europe/Berlin,21.3,21.3,Clear
+2024-09-02 21:24:00,Pforzheim,Baden-Wurttemberg,Germany,Europe/Berlin,18.9,18.9,Patchy rain nearby
+2024-09-02 20:24:00,Lagos,Lagos,Nigeria,Africa/Lagos,27.4,31.0,Partly cloudy
+2024-09-02 20:24:00,Ichida,Anambra,Nigeria,Africa/Lagos,24.2,26.6,Patchy light drizzle
+2024-09-02 21:29:00,Berlin,Berlin,Germany,Europe/Berlin,21.3,21.3,Clear
+2024-09-02 21:29:00,Pforzheim,Baden-Wurttemberg,Germany,Europe/Berlin,18.9,18.9,Patchy rain nearby
+2024-09-02 20:29:00,Lagos,Lagos,Nigeria,Africa/Lagos,27.4,31.0,Partly cloudy
+2024-09-02 20:29:00,Ichida,Anambra,Nigeria,Africa/Lagos,24.2,26.6,Patchy light drizzle
+2024-09-02 21:34:00,Berlin,Berlin,Germany,Europe/Berlin,21.2,21.2,Clear
+2024-09-02 21:34:00,Pforzheim,Baden-Wurttemberg,Germany,Europe/Berlin,18.9,18.9,Patchy rain nearby
+2024-09-02 20:34:00,Lagos,Lagos,Nigeria,Africa/Lagos,27.4,31.0,Partly cloudy
+2024-09-02 20:34:00,Ichida,Anambra,Nigeria,Africa/Lagos,24.2,26.6,Patchy light drizzle
+2024-09-02 21:39:00,Berlin,Berlin,Germany,Europe/Berlin,21.2,21.2,Clear
+2024-09-02 21:39:00,Pforzheim,Baden-Wurttemberg,Germany,Europe/Berlin,18.9,18.9,Patchy rain nearby
+2024-09-02 20:39:00,Lagos,Lagos,Nigeria,Africa/Lagos,27.4,31.0,Partly cloudy
+2024-09-02 20:39:00,Ichida,Anambra,Nigeria,Africa/Lagos,24.2,26.6,Patchy light drizzle
+2024-09-02 21:44:00,Berlin,Berlin,Germany,Europe/Berlin,21.2,21.2,Clear
+2024-09-02 21:44:00,Pforzheim,Baden-Wurttemberg,Germany,Europe/Berlin,18.9,18.9,Patchy rain nearby
+2024-09-02 20:44:00,Lagos,Lagos,Nigeria,Africa/Lagos,27.4,31.0,Partly cloudy
+2024-09-02 20:44:00,Ichida,Anambra,Nigeria,Africa/Lagos,24.2,26.6,Patchy light drizzle
+2024-09-02 21:49:00,Berlin,Berlin,Germany,Europe/Berlin,21.2,21.2,Clear
+2024-09-02 21:49:00,Pforzheim,Baden-Wurttemberg,Germany,Europe/Berlin,18.9,18.9,Patchy rain nearby
+2024-09-02 20:49:00,Lagos,Lagos,Nigeria,Africa/Lagos,26.0,28.6,Clear
+2024-09-02 20:49:00,Ichida,Anambra,Nigeria,Africa/Lagos,24.2,26.6,Patchy light drizzle
+2024-09-02 21:54:00,Berlin,Berlin,Germany,Europe/Berlin,21.2,21.2,Clear
+2024-09-02 21:54:00,Pforzheim,Baden-Wurttemberg,Germany,Europe/Berlin,18.9,18.9,Patchy rain nearby
+2024-09-02 20:54:00,Lagos,Lagos,Nigeria,Africa/Lagos,26.0,28.6,Clear
+2024-09-02 20:54:00,Ichida,Anambra,Nigeria,Africa/Lagos,24.2,26.6,Patchy light drizzle

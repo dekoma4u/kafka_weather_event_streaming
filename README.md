@@ -33,6 +33,7 @@ This project showcases:
 - Apache Kafka
 - PostgreSQL
 - Git
+- smptlib (email libraries)
 - API Key from [Weather API](https://www.weatherapi.com/docs/)
 
 ## Installation
@@ -70,7 +71,8 @@ pip install -r requirements.txt
 - Create the necessary table (`weather_data`) in the database.
 
 ### Run the Pipeline
-
+At a failure, email alert is sent to the project owner.
+  
 - **Start the Kafka Producer** to stream weather data:
 
   ```bash

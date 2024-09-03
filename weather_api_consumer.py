@@ -5,7 +5,6 @@ from dotenv import load_dotenv
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-import time
 from datetime import datetime as dt
 
 # Load environment variables from .env file
@@ -58,6 +57,35 @@ def create_consumer():
         value_deserializer=lambda x: x.decode('utf-8')
     )
 
+def connect_postgres():
+    """Connect to PostgreSQL database."""
+    try:
+        conn = connect(**DB_PARAMS)
+        return conn
+    except Exception as e:
+        print(f"Error connecting to PostgreSQL: {e}")
+        return None
+
+def insert_into_postgres(data):
+    """Insert data into PostgreSQL."""
+    conn = connect_postgres()
+    if conn:
+        try:
+            cursor = conn.cursor()
+            insert_query = sql.SQL("""
+                INSERT INTO weather_data (timestamp, place, region, country, continent, current_temp_c, feels_like_temp_c, condition)
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
+            """)
+            cursor.execute(insert_query, data)
+            conn.commit()
+            cursor.close()
+            print("Data inserted into PostgreSQL.")
+        except Exception as e:
+            print(f"Error inserting data into PostgreSQL: {e}")
+            conn.rollback()
+        finally:
+            conn.close()
+
 def check_consumer_health(consumer):
     """Check if the Kafka consumer is still working."""
     try:
@@ -91,11 +119,22 @@ def main():
             else:
                 for msg in consumer:
                     # Process the message
-                    # Your message processing code here
-                    print(f"Message received: {msg.value}")
-            
-            # Sleep for 60 seconds before checking again
-            time.sleep(60)  
+                    message = msg.value.split(',')
+                    
+                    # Check the length to match the expected columns
+                    if len(message) == 8:
+                        # Unpack the message into variables
+                        timestamp, place, region, country, continent, current_temp_c, feels_like_temp_c, condition = message
+
+                        # Insert the data into the PostgreSQL table
+                        insert_into_postgres((
+                            timestamp, place, region, country, continent, 
+                            float(current_temp_c), float(feels_like_temp_c), condition
+                        ))
+
+                    else:
+                        print(f"Unexpected message format: {msg.value}")
+
     except KeyboardInterrupt:
         print("Exiting the program.")
     finally:

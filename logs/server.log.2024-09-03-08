@@ -1,0 +1,1 @@
+[2024-09-03 08:10:42,781] WARN [BrokerLifecycleManager id=1] Broker 1 sent a heartbeat request but received error REQUEST_TIMED_OUT. (kafka.server.BrokerLifecycleManager)

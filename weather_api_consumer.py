@@ -111,29 +111,24 @@ def main():
         consumer = create_consumer()
         print(f"Reading messages from the topic: {TOPIC}")
 
-        while True:
-            if not check_consumer_health(consumer):
-                # Attempt to recreate the consumer if health check fails
-                consumer = create_consumer()
-                print("Recreated Kafka consumer.")
+        for msg in consumer:
+            # Process the message
+            print(f"Message received: {msg.value}")
+            message = msg.value.split(',')
+            
+            # Check the length to match the expected columns
+            if len(message) == 8:
+                # Unpack the message into variables
+                timestamp, place, region, country, continent, current_temp_c, feels_like_temp_c, condition = message
+
+                # Insert the data into the PostgreSQL table
+                insert_into_postgres((
+                    timestamp, place, region, country, continent, 
+                    float(current_temp_c), float(feels_like_temp_c), condition
+                ))
+
             else:
-                for msg in consumer:
-                    # Process the message
-                    message = msg.value.split(',')
-                    
-                    # Check the length to match the expected columns
-                    if len(message) == 8:
-                        # Unpack the message into variables
-                        timestamp, place, region, country, continent, current_temp_c, feels_like_temp_c, condition = message
-
-                        # Insert the data into the PostgreSQL table
-                        insert_into_postgres((
-                            timestamp, place, region, country, continent, 
-                            float(current_temp_c), float(feels_like_temp_c), condition
-                        ))
-
-                    else:
-                        print(f"Unexpected message format: {msg.value}")
+                print(f"Unexpected message format: {msg.value}")
 
     except KeyboardInterrupt:
         print("Exiting the program.")

@@ -72,7 +72,7 @@ pip install -r requirements.txt
 
 ### Run the Pipeline
 - At a failure, alerts is sent to the project owner.
-- 
+  
 - **Start the Kafka Producer** to stream weather data:
 
   ```bash

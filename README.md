@@ -71,7 +71,7 @@ pip install -r requirements.txt
 - Create the necessary table (`weather_data`) in the database.
 
 ### Run the Pipeline
-- At a failure, alerts is sent to the project owner.
+At a failure, alerts is sent to the project owner.
   
 - **Start the Kafka Producer** to stream weather data:
 
